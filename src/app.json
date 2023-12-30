@@ -1,0 +1,30 @@
+{
+    "version": "0.0.1",
+    "io": {
+        "USER_LED": {
+            "type": "GPIO",
+            "port": 33,
+            "dir": "output",
+            "pull": "pulldown"
+        },
+        "mainuart": {
+            "type": "UART",
+            "port": 2,
+            "dataWidth": 8,
+            "baudRate": 9600,
+            "stopBits": 1,
+            "flowControl": "disable",
+            "parity": "none"
+        },
+        "uartex": {
+            "type": "UART",
+            "port": 1,
+            "dataWidth": 8,
+            "baudRate": 9600,
+            "stopBits": 1,
+            "flowControl": "disable",
+            "parity": "none"
+        }
+    },
+    "debugLevel": "DEBUG"
+}
